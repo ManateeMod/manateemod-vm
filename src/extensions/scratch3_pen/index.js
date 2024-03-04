@@ -27,15 +27,6 @@ const MARKER_ID = 'Marker';
 const CURLY_ID = 'Curly';
 const PIXEL_ID = 'Pixel';
 
-/* PenguinMod Fonts */
-const PLAYFUL_ID = 'Playful';
-const BUBBLY_ID = 'Bubbly';
-const BITSANDBYTES_ID = 'Bits and Bytes';
-const TECHNOLOGICAL_ID = 'Technological';
-const ARCADE_ID = 'Arcade';
-const ARCHIVO_ID = 'Archivo';
-const ARCHIVOBLACK_ID = 'Archivo Black';
-const SCRATCH_ID = 'Scratch';
 
 const RANDOM_ID = 'Random';
 
@@ -465,24 +456,6 @@ class Scratch3PenBlocks {
         }, {
             text: 'Bubbly',
             value: BUBBLY_ID
-        }, {
-            text: 'Arcade',
-            value: ARCADE_ID
-        }, {
-            text: 'Bits and Bytes',
-            value: BITSANDBYTES_ID
-        }, {
-            text: 'Technological',
-            value: TECHNOLOGICAL_ID
-        }, {
-            text: 'Scratch',
-            value: SCRATCH_ID
-        }, {
-            text: 'Archivo',
-            value: ARCHIVO_ID
-        }, {
-            text: 'Archivo Black',
-            value: ARCHIVOBLACK_ID
         },
         ...this.runtime.fontManager.getFonts().map(i => ({
             text: i.name,
